@@ -1,3 +1,6 @@
+      <chart :data="barChartData" :options="barChartOptions" :height="200" />
+import _ from 'lodash';    
+import Chart from '~/components/Chart'
   async fetch() {
     try {
       this.tasksStatus = await this.$axios.$get('https://mocki.io/v1/932711ca-96f8-453d-90e6-dd114ac25c25');
@@ -27,3 +30,8 @@
       this.$nuxt.error({status: 500, message: e})
     }
   },
+  components: {
+    Chart
+  }
+}
+</script>
