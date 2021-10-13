@@ -1,5 +1,35 @@
 # IREEN
 
+### Table Of Contents
+- [Description](#Description)
+- [How To Use](#how-to-use)
+- [Build Setup](#build-setup)
+- [Special Directories](#special-directories)
+- [License](#License)
+- [Author Info](#author-info)
+
+
+## Description
+It is a test project for applying job position at IRREN.
+Here is what this project is about:
+A NuxtJS application that is capable of rendering a stacked bar chart that compares how many items each user has. Each bar should be stacked in 2 parts, displaying the number of completed and incomplete items.
+It uses lodash for manipulating API fetched data.First categorizes data based on userId and task status (completed or not completed) using lodash group by functionality  then we generate chart lables based on this object and pass the data along with other required options such as (y and x axes stacked option, colors, legend, etc.) to the chart.
+
+### Technologies
+- [nuxt](https://nuxtjs.org/docs/get-started/installation/)
+- [vue-chartjs](https://vue-chartjs.org/)
+- [vuetify](https://vuetifyjs.com/en/)
+- [lodash](https://lodash.com/)
+- [chart.js](https://www.chartjs.org/)
+
+## How To Use
+
+### API Reference
+- Users mock data:
+  https://mocki.io/v1/429711e1-59f6-4910-96bb-4e390c6b0063
+- ToDo List mock data:
+  https://mocki.io/v1/932711ca-96f8-453d-90e6-dd114ac25c25
+  
 ## Build Setup
 
 ```bash
@@ -67,3 +97,17 @@ More information about the usage of this directory in [the documentation](https:
 This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
 
 More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
+
+## License
+MIT License
+
+Copyright (c) [2017] [James Q Quick]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+## Author Info
+- LinkedIn [mohammad-saadati](https://www.linkedin.com/in/mohammad-saadati/)
